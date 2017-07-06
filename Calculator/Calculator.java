@@ -8,7 +8,7 @@ public class Calculator {
 		int num1, num2, result, ch;
 		number1 = JOptionPane.showInputDialog("Enter first number: ");
 		number2 = JOptionPane.showInputDialog("Enter second number: ");
-		choice = JOptionPane.showInputDialog("Enter 1 - Addition :\n 2 - Subtraction ");
+		choice = JOptionPane.showInputDialog("Enter: \n 1 - Addition \n 2 - Subtraction ");
 		num1 = Integer.parseInt(number1);
 		num2 = Integer.parseInt(number2);
 		ch = Integer.parseInt(choice);
